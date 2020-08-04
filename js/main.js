@@ -20,7 +20,7 @@ function loadNow(opacity){
         loader.style.opacity=opacity;
         window.setTimeout(function(){
             loadNow(opacity - 0.01)
-        },10);
+        },1000);
     }
 }
 
