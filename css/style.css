@@ -137,6 +137,7 @@ nav .menu li a:hover{
 
 
 .content{
+    width:80%
     position: absolute;
     top: 50%;
     right: 50%;
@@ -156,13 +157,13 @@ nav .menu li a:hover{
 
 @media screen and (max-width:1000px){
     .content{
-        top: 40%;
+        top: 45%;
     }
 }
 
 @media screen and (max-width:650px){
     .content{
-        top: 30%;
+        top: 40%;
     }
 }
 
