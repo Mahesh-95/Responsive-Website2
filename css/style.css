@@ -119,6 +119,7 @@ nav .menu li a:hover{
         width: 100%;
         margin-top: 3rem;
         border-top:1px solid white;
+       
     }
 
     nav .menu li a{
@@ -137,7 +138,7 @@ nav .menu li a:hover{
 
 
 .content{
-    width:80%
+    width: 80%;
     position: absolute;
     top: 50%;
     right: 50%;
@@ -150,8 +151,18 @@ nav .menu li a:hover{
     font-size: 3rem;
 }
 
+.content hr {
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    background-color: white;
+    border: none;
+    margin-bottom: 1rem;
+}
+
 .content p{
     color: white;
+    line-height: 1.4rem;
     
 }
 
@@ -1132,6 +1143,7 @@ footer{
     margin-bottom: 1rem;
     background-color: white;
     padding: 3rem 3rem; 
+    width: 100%;
    
 }
 
@@ -1168,6 +1180,7 @@ label{
 }
 
 .info{ 
+    width: 100%;
     margin-right: 2rem;
     margin-bottom: 1rem;
     background-color: white;
@@ -1202,6 +1215,26 @@ label{
     margin-bottom: 0.5rem;
 }
 
+
+@media screen and (max-width:1000px){
+    .form{
+        padding: 4rem 4rem;
+    }
+}
+
+@media screen and (max-width:800px){
+    .form{
+        padding: 4rem 0rem;
+    }
+    .column5{
+        float: left;
+        width: 100%;
+    }
+    .column6{
+        float: left;
+        width: 100%;
+    }
+}
 
 
 
